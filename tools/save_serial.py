@@ -12,7 +12,3 @@ while(1):
     print(date,value)
     with open('/Users/ryotanomura/Documents/Arduino/illuminometer/test.csv', 'a') as f:
         print('{},{}'.format(date,value),file=f)
-
-
-
-

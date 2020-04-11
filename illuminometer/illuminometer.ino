@@ -3,7 +3,7 @@ int sensorValue = 0;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  pinMode(7,OUTPUT);
+  // pinMode(7,OUTPUT);
 }
 
 void loop() {
@@ -12,7 +12,7 @@ void loop() {
   sensorValue = analogRead(A0);
   Serial.println(sensorValue);
 
-  analogWrite(7,sensorValue*10);
+  // analogWrite(7,sensorValue*10);
 
   delay(1000);
 }
